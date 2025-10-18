@@ -54,7 +54,7 @@ Installation & Setup
 
 Clone the repository:
 
-git clone [https://github.com/your-username/gasguard-mvp.git](https://github.com/your-username/gasguard-mvp.git)
+git clone (https://github.com/KelvinKipchumba67/Gas-guard)
 
 
 Navigate to the project directory:
