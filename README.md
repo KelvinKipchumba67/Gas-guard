@@ -1,8 +1,8 @@
-GasGuard - Smart LPG Tracking
+# GasGuard - Smart LPG Tracking
 
-GasGuard is a modern, responsive web application designed to eliminate the guesswork and anxiety associated with tracking household LPG consumption. This project was developed as a submission for the Green Wells Innovation Challenge, aiming to reimagine the consumer energy experience.
+## GasGuard is a modern, responsive web application designed to eliminate the guesswork and anxiety associated with tracking household LPG consumption. This project was developed as a submission for the Green Wells Innovation Challenge, aiming to reimagine the consumer energy experience.
 
-The Problem
+### The Problem
 
 For millions of households in Kenya, running out of cooking gas unexpectedly is a common and frustrating experience. Traditional methods of checking gas levels—shaking the cylinder, lifting it, or pouring warm water—are inaccurate and inconvenient. This leads to:
 
