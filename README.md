@@ -81,9 +81,9 @@ Project Structure
 The application is built with a clean, component-based architecture to ensure maintainability and scalability.
 
 /src
-├── /components       # Reusable React components
-│   ├── Onboarding.jsx  # First-time user setup screen
-│   ├── Dashboard.jsx   # Main display for gas levels
-│   ├── GasGauge.jsx    # Visual gauge component
-│   └── UsageHistory.jsx# Panel for past refill data (large screens)
-└── App.jsx           # Main application logic and state management
+/components     
+   Onboarding.jsx
+   Dashboard.jsx  
+   GasGauge.jsx  
+   UsageHistory.jsx
+ App.jsx          
