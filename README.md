@@ -82,8 +82,9 @@ The application is built with a clean, component-based architecture to ensure ma
 
 /src
 /components     
-   Onboarding.jsx
-   Dashboard.jsx  
-   GasGauge.jsx  
-   UsageHistory.jsx
- App.jsx          
+-Onboarding.jsx
+-Dashboard.jsx  
+-GasGauge.jsx  
+-UsageHistory.jsx
+   
+App.jsx          
