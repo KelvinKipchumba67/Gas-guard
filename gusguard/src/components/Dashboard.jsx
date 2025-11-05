@@ -8,9 +8,9 @@ export default function Dashboard({ appData, calculatedData, onConfirmRefill }) 
   const days = calculatedData?.daysRemaining ?? '...';
 
   return (
-    <div className="bg-gray-800 text-white p-8 rounded-xl shadow-2xl w-full max-w-md mx-auto flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-sky-400 mb-4">Your Gas Level</h1>
-      <p className="text-gray-400 mb-8">Based on a {appData.cylinderSize}kg cylinder for a household of {appData.householdSize}.</p>
+    <div className="bg-gray-800 text-white p-4 sm:p-6 md:p-8 rounded-xl shadow-2xl w-full max-w-md mx-auto flex flex-col items-center">
+      <h1 className="text-2xl sm:text-3xl font-bold text-sky-400 mb-2 sm:mb-4">Your Gas Level</h1>
+      <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 text-center">Based on a {appData.cylinderSize}kg cylinder for a household of {appData.householdSize}.</p>
       
       <GasGauge percentage={percentage} />
 

@@ -13,7 +13,23 @@ export default function UsageHistory({ history }) {
   return (
     <div className="bg-gray-800 text-white p-6 md:p-8 rounded-2xl shadow-2xl w-full border border-gray-700 h-full">
       <h2 className="text-xl font-bold text-sky-400 mb-6">Usage History</h2>
-      <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
+      <div className="space-y-4 max-h-96 overflow-y-auto pr-2 custom-scrollbar">
+        <style jsx>{`
+          .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-track {
+            background: #374151;
+            border-radius: 4px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #4B5563;
+            border-radius: 4px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #6B7280;
+          }
+        `}</style>
         {history.map((item, index) => (
           <div key={index} className="bg-gray-700 p-4 rounded-lg flex justify-between items-center">
             <div>

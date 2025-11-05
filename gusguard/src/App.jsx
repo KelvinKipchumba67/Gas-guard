@@ -85,12 +85,12 @@ function App() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-900 w-full flex items-center justify-center p-4">
+    <main className="min-h-screen bg-gray-900 w-full flex items-center justify-center p-3 sm:p-4 md:p-6">
       {!appData ? (
         <Onboarding onSave={handleSaveOnboarding} />
       ) : (
         <div className="w-full max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             {/* The Dashboard will always be visible */}
             <Dashboard 
               appData={appData}
